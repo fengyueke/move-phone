@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/yidongduan.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="goBack">
+        返回顶部
+    </div>
+    <div class="focus">
+        <ul>
+            <li>
+                <img src="./img/banner_3.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/banner_1.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/banner_2.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/banner_3.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/banner_1.jpg" alt="">
+            </li>
+        </ul>
+        <ol>
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+    <input class="btn btn-default" type="submit" value="Submit">
+    <button type="button" class="btn btn-danger">（危险）Danger</button>
+    <span class="glyphicon glyphicon-cloud"></span>
+    <script src="./js/yidongduan.js"></script>
+    <script src="./js/fastclick.js"></script>
+    <script>
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function() {
+                FastClick.attach(document.body);
+            }, false);
+        }
+    </script>
+</body>
+
+</html>
